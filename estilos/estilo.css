@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logoweb {
+  max-height: 10rem;
+}
+
+.logoweb h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logoweb h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-inner {
+  height: 65vh;
+  min-height: 600px;
+  background: no-repat center center scroll;
+  -webkit-backdrop-size: cover;
+}
+
+.logowebfooter {
+  max-height: 5rem;
+}
+
+.demo-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 1px 1px;
+  text-align: center;
+  font-size: 1.0rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .demo-grid .demo-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.radio {
+  padding: 50px;
+}
+
+.formulario {
+  margin: 20px;
+  padding: 20px;
+}
+
+.perfilPic {
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col-12 {
+  margin-bottom: 163px;
+  padding-left: 30px;
+}
+
+.col-12 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=estilo.css.map */
